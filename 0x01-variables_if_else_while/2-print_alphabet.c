@@ -12,9 +12,9 @@ int main(void)
 
 	int i = 0;
 
-	for (i = 0; i < = 25; i = i + 1)
+	for (i = 0; i <= 25; i = i + 1)
 	{
-		puthar(myChar[i] + 32);
+		putchar(myChar[i] + 32);
 	}
 	putchar('\n');
 	return (0);
