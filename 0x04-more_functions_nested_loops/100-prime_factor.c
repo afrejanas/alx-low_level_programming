@@ -10,7 +10,7 @@
 int main(void)
 {
 	int c;
-	long num = 612852475143;
+	long num = 330;
 
 	for (c = (int) sqrt(num); c > 2; c++)
 	{
