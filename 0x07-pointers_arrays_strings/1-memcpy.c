@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * _memset - fills memory with a constant byte.
- * @s: source string
- * @b: the contant byte for filling
+ * _memcpy - fills memory with another buffer.
+ * @dest: source string
+ * @src: string for filling
  * @n: lenght of buffer
  * Return: new string.
  */
