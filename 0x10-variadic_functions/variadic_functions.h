@@ -25,4 +25,3 @@ void print_f(va_list);
 void print_s(va_list);
 
 #endif
-
