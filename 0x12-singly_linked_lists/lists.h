@@ -1,6 +1,6 @@
 #ifndef LISTES_H
 #define LISTE_H
-#include<string>
+#include<string.h>
 #include<stdio.h>
 #include<stdlib.h>
 /**
@@ -13,12 +13,12 @@
  * for alx project
  */
 
-typedef struct Node 
+typedef struct list_s 
 {
 	char *str;
 	unsigned int len;
-	struct Node* next;
-} node;
+	struct list_s *next;
+} list_t;
 
 size_t print_list(const list_t *h);
 #endif
