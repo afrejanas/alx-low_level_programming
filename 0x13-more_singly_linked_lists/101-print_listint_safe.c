@@ -8,8 +8,8 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	long int diff;
 	size_t num = 0;
+	long int diff;
 
 	while (head)
 	{
@@ -24,5 +24,6 @@ size_t print_listint_safe(const listint_t *head)
 			break;
 		}
 	}
+
 	return (num);
 }
