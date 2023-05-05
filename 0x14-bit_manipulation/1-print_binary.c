@@ -6,11 +6,9 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int p;
-	int i, a = 1, b;
+	int i, a = 1, b, c = 0;
 	int flag = 0;
 
-	if (n == 0)
-		_putchar('0');
 
 	for (i = 0; i < 32; i++)
 	{
@@ -21,6 +19,12 @@ void print_binary(unsigned long int n)
 		{
 			b = p >> (31 - i);
 			_putchar(b + 48);
+			c++;
 		}
 	}
+	if (c == 0)
+	{
+		_putchar('0');
+	}
+
 }
