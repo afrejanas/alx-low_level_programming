@@ -9,7 +9,7 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 	int a = 1;
-	unsigned long int p;
+	int p;
 
 	p = (a << index & n);
 	if (p >> index)
@@ -19,6 +19,5 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	if (index > 32)
 		return (-1);
-
 }
 
